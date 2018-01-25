@@ -22,7 +22,7 @@ function iLoveTheBeatles(number) {
   do {
     loveBeatles.push("I love the Beatles!");
     number--;
-  } while(number>0) {
+  } while(number>0 && <15) {
     loveBeatles.push("I love the Beatles!");
   }
   return loveBeatles;
